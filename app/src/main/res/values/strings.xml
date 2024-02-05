@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="cold_cure_soup">Cold Cure Soup</string>
+    <string name="soupImage">Image of cold cure soup</string>
+    <string name="txtIngredientTitle">Ingredients</string>
+    <string name="txtIngredientList">"3 pounds chicken wings\n1 carrot, peeled and halved\n1 onion, peeled and halved\n1 cinnamon stick\n13-inch knob of ginger, peeled\n1 tablespoon Maldon salt or 1½ teaspoons table salt\n¼ cup fresh citrus juice (2 parts orange juice to 1 part lime juice), plus zest in strips\nChopped cilantro, for garnish\n1 small red chili pepper, seeded and cut into fine rings, for garnish"</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cuttingboard"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/recipeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/cold_cure_soup"
+        android:textColor="#1E1D1B"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageView
+        android:id="@+id/imgSoup"
+        android:layout_width="281dp"
+        android:layout_height="197dp"
+        android:contentDescription="@string/soupImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeTitle"
+        app:layout_constraintVertical_bias="0.961"
+        app:srcCompat="@drawable/coldcuresoup_preview_rev_1"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtIngredientTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/chelsea_market"
+        android:text="@string/txtIngredientTitle"
+        android:textColor="#201C18"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/txtIngredientList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recipeTitle"
+        app:layout_constraintVertical_bias="0.04000002" />
+
+    <TextView
+        android:id="@+id/txtIngredientList"
+        android:layout_width="275dp"
+        android:layout_height="336dp"
+        android:fontFamily="sans-serif-medium"
+        android:shadowColor="#FAE3A7"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="6"
+        android:text="@string/txtIngredientList"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/imgSoup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtIngredientTitle"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
